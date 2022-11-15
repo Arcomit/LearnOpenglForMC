@@ -1,9 +1,19 @@
 {
-    "plugins": [],
+    "plugins": [
+		"code",
+		"popup",
+		"expandable-chapters",
+		"hide-element"
+	],
     "pluginsConfig": {
-
+		"code": {
+        	"copyButtons": true
+			},
+	  	"hide-element": {
+        	"elements": [".gitbook-link"]
+			}
     },
     "language": "zh-hans",
-    "title":"SlashBlade",
+    "title":"Learn opengl in the minecraft",
 	"author":"Arcomit"
 }
